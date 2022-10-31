@@ -1,0 +1,45 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.score, .time {
+    padding: 0 10px;
+}
+
+button {
+    background-color: rebeccapurple;
+    color: white;
+    border-radius: 10%;
+    border: 1px solid black;
+    padding: 5px 15px;
+    cursor: grab;
+    display: block;
+    margin-left: 45.5vw;
+}
+
+main {
+    padding-top: 5%;
+    text-align: center;
+}
+
+button:hover {
+    background-color: lightpink;
+}
+
+h1 {
+    text-align: center;
+    color: red;
+}
+
+main p {
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+}
